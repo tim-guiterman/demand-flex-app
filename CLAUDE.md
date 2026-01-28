@@ -1,30 +1,29 @@
-# Energy Data Analyzer
+# Edo Demand Flexibility Assessment Tool
 
-Streamlit app for automated energy data cleaning and natural language analysis.
+Streamlit app for automated peak demand analysis and flexibility quantification for commercial buildings.
 
 ## Run
 
 ```bash
-python3 -m streamlit run app.py
+streamlit run app.py
 ```
-
-Requires `ANTHROPIC_API_KEY` in environment or Streamlit secrets for AI analysis features.
 
 ## Dependencies
 
 - streamlit
 - pandas
 - numpy
-- matplotlib
-- anthropic
+- plotly
 
 ## Key Features
 
-- CSV/Excel upload with auto-detection of header rows and sheet selection
-- Auto-detects timestamp and energy columns
-- Cleans data: fills missing values (forward-fill), flags outliers (z-score > 3 std dev)
-- Generates data provenance document
-- AI-powered natural language queries (10 query limit per session)
+- CSV upload with auto-detection of timestamp and demand columns
+- Peak demand metrics and flexibility opportunity quantification
+- Interactive time series chart with zoom/range selector
+- Load duration curve visualization
+- Monthly peak summary table
+- Economic value estimation with configurable demand charge rates
+- Exportable reports (CSV, TXT)
 
 ## Sample Data
 
@@ -32,7 +31,6 @@ Use `sample_data/grocery_spokane_sample.csv` for testing.
 
 ## UI Guidelines
 
-- Professional, understated tone - no playful/tutorial language
-- No emojis except warning symbol in `st.warning()` and `st.error()` messages
+- Professional, understated tone
+- No emojis in code except warning symbols in `st.warning()` and `st.error()`
 - Uses Inter font family
-- Query counter shows "X of 10 queries used" (not "X remaining")
