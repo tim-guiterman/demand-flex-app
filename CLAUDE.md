@@ -14,6 +14,13 @@ streamlit run app.py
 - pandas
 - numpy
 - plotly
+- anthropic
+
+## API Keys
+
+Requires `ANTHROPIC_API_KEY` for the AI chat feature:
+- Local: Add to `.streamlit/secrets.toml`
+- Streamlit Cloud: Add in app Settings → Secrets
 
 ## Key Features
 
@@ -24,6 +31,7 @@ streamlit run app.py
 - Monthly peak summary table
 - Economic value estimation with configurable demand charge rates
 - Exportable reports (CSV, TXT)
+- AI chat to ask questions about your data
 
 ## Sample Data
 

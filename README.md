@@ -102,6 +102,11 @@ ts,kw
 - Top 1% hour identification for targeted demand response
 - Economic value calculation with configurable demand charge rates
 
+### AI Chat
+- Ask natural language questions about your data
+- Get insights on peak patterns, flexibility opportunities, and optimization strategies
+- Requires `ANTHROPIC_API_KEY` (add to `.streamlit/secrets.toml` locally or Streamlit Cloud Secrets)
+
 ---
 
 ## Sharing Your Demo
