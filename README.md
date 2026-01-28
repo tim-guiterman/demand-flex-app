@@ -80,23 +80,23 @@ ts,kw
 
 ## Features
 
-### 📊 Key Metrics Dashboard
+### Key Metrics Dashboard
 - **Peak Demand**: Maximum interval demand
 - **Average Load**: Mean demand across all intervals
 - **Flexibility Opportunity**: Reduction potential (peak - 90th percentile)
 - **Economic Value**: Estimated annual savings from peak shaving
 
-### 📈 Interactive Visualizations
+### Interactive Visualizations
 1. **Time Series Chart**: Full demand profile with range selector and zoom
 2. **Load Duration Curve**: All intervals sorted by demand, showing peak shaving opportunity
 3. **Monthly Peak Table**: Summary of peak events by month
 
-### 💾 Export Capabilities
+### Export Capabilities
 - Monthly peaks summary (CSV)
 - Full analyzed dataset (CSV)
 - Executive summary report (TXT)
 
-### 🎯 Analysis Features
+### Analysis Features
 - Automatic percentile-based flexibility quantification
 - Peak timing pattern detection (hour of day, day of week)
 - Top 1% hour identification for targeted demand response

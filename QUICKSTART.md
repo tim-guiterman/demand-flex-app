@@ -59,7 +59,7 @@ If it doesn't, manually open that URL in Chrome or Firefox.
 
 1. Click "Browse files" in the sidebar
 2. Select your CSV file
-3. Watch the magic happen! ✨
+3. The analysis will run automatically
 
 You'll instantly see:
 - Peak demand metrics
@@ -117,4 +117,4 @@ You now have a working demand flexibility assessment tool. Total time: ~5 minute
 
 **Questions?** Check the full README.md or the app's built-in help text.
 
-Happy analyzing! ⚡
+Happy analyzing.

@@ -420,7 +420,7 @@ if uploaded_file:
         st.markdown("---")
         st.markdown(f"""
         <h2 style="color: {COLORS['gray_800']}; font-size: 24px; font-weight: 500; margin-bottom: 20px;">
-            📊 Key Metrics
+            Key Metrics
         </h2>
         """, unsafe_allow_html=True)
 
@@ -453,7 +453,7 @@ if uploaded_file:
         st.markdown("---")
         st.markdown(f"""
         <h2 style="color: {COLORS['gray_800']}; font-size: 24px; font-weight: 500; margin-bottom: 16px;">
-            📈 Demand Profile - Interactive Time Series
+            Demand Profile - Interactive Time Series
         </h2>
         """, unsafe_allow_html=True)
 
@@ -524,7 +524,7 @@ if uploaded_file:
         st.markdown("---")
         st.markdown(f"""
         <h2 style="color: {COLORS['gray_800']}; font-size: 24px; font-weight: 500; margin-bottom: 16px;">
-            📈 Load Duration Curve - Peak Shaving Visualization
+            Load Duration Curve - Peak Shaving Visualization
         </h2>
         """, unsafe_allow_html=True)
 
@@ -618,7 +618,7 @@ if uploaded_file:
         st.markdown("---")
         st.markdown(f"""
         <h2 style="color: {COLORS['gray_800']}; font-size: 24px; font-weight: 500; margin-bottom: 16px;">
-            💾 Export Data & Reports
+            Export Data & Reports
         </h2>
         """, unsafe_allow_html=True)
 
@@ -743,7 +743,7 @@ else:
         <div style="background: linear-gradient(135deg, {COLORS['primary_100']} 0%, {COLORS['primary_50']} 100%);
                     padding: 24px; border-radius: 8px; border: 1px solid {COLORS['primary_600']};">
             <h3 style="color: {COLORS['primary_800']}; font-size: 18px; font-weight: 500; margin-bottom: 16px;">
-                💡 Quick Tip
+                Quick Tip
             </h3>
             <p style="color: {COLORS['primary_800']}; font-size: 14px; line-height: 1.6;">
                 Use the sample data in the <code>sample_data/</code> folder to test the application.
