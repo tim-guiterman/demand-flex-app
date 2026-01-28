@@ -1,0 +1,14 @@
+# Secrets - never commit API keys
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# OS
+.DS_Store
+
+# Data files (optional - uncomment if you want to ignore sample data)
+# sample_data/*.csv
