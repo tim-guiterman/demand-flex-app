@@ -8,12 +8,12 @@ Place your test AMI interval data CSV files here to keep your project organized.
 
 ### From Your Jupyter Notebook
 
-Export the Rosauers Spokane data from your notebook by adding this cell:
+Export the grocery Spokane data from your notebook by adding this cell:
 
 ```python
 # Export sample data for app testing
-thedata.to_csv('rosauers_ami_data.csv', index=True)
-print("Sample data exported to rosauers_ami_data.csv")
+thedata.to_csv('grocery_ami_data.csv', index=True)
+print("Sample data exported to grocery_ami_data.csv")
 ```
 
 Then copy the generated CSV file to this `sample_data/` folder.
@@ -70,7 +70,7 @@ ts,kw
 
 ## Files You Can Add Here
 
-- `rosauers_ami_data.csv` - Real building data from your notebook
+- `grocery_ami_data.csv` - Real building data from your notebook
 - `synthetic_test_data.csv` - Generated test data
 - `building_A.csv`, `building_B.csv` - Multiple building datasets for testing
 - Any other AMI interval data you want to analyze

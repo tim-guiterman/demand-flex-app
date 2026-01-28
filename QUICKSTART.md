@@ -32,8 +32,8 @@ You need a CSV file with AMI interval data. You have two options:
 Add this to your notebook and run it:
 
 ```python
-# Export your Rosauers Spokane data
-thedata.to_csv('rosauers_ami_data.csv', index=True)
+# Export your grocery Spokane data
+thedata.to_csv('grocery_ami_data.csv', index=True)
 ```
 
 Then move the CSV to the `sample_data/` folder.

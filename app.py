@@ -264,7 +264,7 @@ st.markdown(f"""
             padding: 32px 24px; border-radius: 12px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(61, 47, 144, 0.15);">
     <div style="color: white;">
         <h1 style="color: white !important; margin: 0 !important;">
-            ⚡ Edo Flex - Demand Flexibility Assessment
+            Edo Flex - Demand Flexibility Assessment
         </h1>
         <p style="color: {COLORS['primary_100']} !important; margin: 8px 0 0 0 !important;">
             Automated peak demand analysis and flexibility quantification for commercial buildings
@@ -747,7 +747,7 @@ else:
             </h3>
             <p style="color: {COLORS['primary_800']}; font-size: 14px; line-height: 1.6;">
                 Use the sample data in the <code>sample_data/</code> folder to test the application.
-                You'll find <strong>rosauers_spokane_sample.csv</strong> ready to upload!
+                You'll find <strong>grocery_spokane_sample.csv</strong> ready to upload!
             </p>
         </div>
         """, unsafe_allow_html=True)
